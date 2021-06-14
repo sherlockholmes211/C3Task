@@ -1,4 +1,4 @@
-# C3Task
+# C3 Experiential Learning Private Limited Task
 
 # HOW TO RUN
 ```
