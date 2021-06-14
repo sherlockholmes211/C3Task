@@ -5,14 +5,14 @@
 Open The terminals, where the folder is located
 
 In the terminal:
-	cd bloodcare
+	cd frontend
 	npm install
 	npm start
 
 ```
 
 # Screen Shots of the Task
-
+![Alt Text](https://github.com/sherlockholmes211/C3Task/blob/main/SS/c3.gif)
 
 # How to use SectionCards Component
 - ```
