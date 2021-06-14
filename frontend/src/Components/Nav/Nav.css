@@ -1,0 +1,191 @@
+.site-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+    border-bottom: 1px solid #ECEDEF;
+    background: #FFFFFF;
+    z-index: 400;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 12px;
+}
+
+
+@media screen and (min-width: 960px) and (max-width: 1200px){
+    .container {
+        width: 960px;
+        padding: 0 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 700.08px) and (max-width: 960px){
+.site-header .container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}
+
+@media screen and (min-width: 700.08px) and (max-width: 960px){
+.container {
+    width: 700.08px;
+    padding: 0 4px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+
+.hdr-links {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+}
+
+.hdr-link.active{
+    color: #1F1F1F;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.hdr-logo {
+    height: auto;
+    width: 174px;
+    margin: 8px 68px 0 0;
+}
+
+.headerlink-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.hdr-logo a {
+    display: inline-block;
+}
+
+
+.b-sprite-global-brilliant-logo {
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    text-indent: -9999px;
+    width: 173.5px;
+    height: 42px;
+}
+
+[class*=b-sprite-global] {
+    background-image: url(https://brilliant.org/site_media/version-V85a073e0692/build/sprites-v2/global.png);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx){
+
+    [class*=b-sprite-global] {
+        background-image: url(https://brilliant.org/site_media/version-V85a073e0692/build/sprites-v2/global.png);
+        background-size: 197.5px 171px;
+    }
+
+    [class*=b-sprite-global] {
+        background-image: url(https://brilliant.org/site_media/version-V85a073e0692/build/sprites-v2/global.png);
+    }
+}
+.hdr-link {
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 48px;
+    line-height: 24px;
+    padding: 9px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    color: #5D7E8E;
+    cursor: pointer;
+}
+
+
+
+
+/* a.btn {
+    color: #1F1F1F;
+} */
+
+.signup-btn:hover, .signup-btn:active, .signup-btn:focus {
+    background: #0277BD;
+    color: #FFFFFF;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 3px 16px;
+    margin-bottom: 0;
+    font-family: "Soleil", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    /* line-height: 20px; */
+    color: #1F1F1F;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #ECEDEF;
+    border: 1px solid #B6BEC7;
+    outline: none;
+    border-radius: 4px;
+    transition: box-shadow 100ms linear, color 100ms linear;
+    touch-action: manipulation;
+}
+
+.signup-btn, .login-link {
+    float: right;
+    margin: 14px 0 13px 14px;
+}
+
+
+.btn:hover, .btn:focus, .btn:active{
+
+    /* color: #0277BD; */
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
+}
+
+
+
+.hdr-login {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.login-link {
+    background: none;
+    border: 1px solid #039BE5;
+    color: #039BE5;
+    width: 176px;
+}
+
+.signup-btn {
+    border: 1px solid #039BE5;
+    background: #039BE5;
+    color: #FFFFFF;
+    width: 176px;
+}
+
+
+

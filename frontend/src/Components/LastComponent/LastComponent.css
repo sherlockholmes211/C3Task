@@ -1,0 +1,107 @@
+.course-footer[data-v-39bad630] {
+    flex-direction: column;
+    padding: 24px 0 48px;
+    text-align: left;
+}
+
+[data-v-5a98dbaa] section {
+    display: flex;
+    justify-content: center;
+}
+.course-map[data-v-39bad630] {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 76px;
+}
+.map-item.wide[data-v-39bad630] {
+    width: auto;
+    margin: 0;
+}
+
+.map-item[data-v-39bad630] {
+    width: 325px;
+    margin: 0 18px;
+}
+.map-item h5[data-v-39bad630] {
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(194, 196, 207, 0.4);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.b-title-small-cap, h5, .b-title-small {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1em;
+    font-weight: bold;
+}
+.map-item.wide > div[data-v-39bad630] {
+    display: flex;
+    justify-content: center;
+}
+.map-item.wide .course[data-v-39bad630] {
+    width: 325px;
+    margin-right: 36px;
+}
+.course[data-v-39bad630] {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.course .img[data-v-39bad630] {
+    position: relative;
+    flex: none;
+    width: 100px;
+    height: 100px;
+    margin-right: 24px;
+    transition: opacity 100ms linear;
+}
+.course .img span[data-v-39bad630] {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: auto;
+    height: auto;
+}
+
+.course div[data-v-39bad630] {
+    transition: opacity 100ms linear;
+}
+.course h4[data-v-39bad630] {
+    margin-bottom: 4px;
+    color: #1F1F1F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.course p[data-v-39bad630] {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    opacity: 0.4;
+}
+
+a:hover, .btn-link:hover {
+    color: #5D7E8E;
+}
+
+.course:hover .img[data-v-39bad630] {
+    opacity: 0.8;
+}
+
+.course:hover div[data-v-39bad630] {
+    opacity: 0.7;
+}
